@@ -4,6 +4,8 @@ import App from './app/App';
 import { BrowserRouter } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
+app.use(require('prerender-node').set('prerenderToken', 'dhnXwug0vTkauiCtNEtt'));
+
 ReactDOM.render(
   <BrowserRouter basename="">
     <React.StrictMode>
